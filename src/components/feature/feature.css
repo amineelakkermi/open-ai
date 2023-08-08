@@ -1,0 +1,30 @@
+.gpt3_feature{
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+.gpt3_feature_title{
+    color: #fff;
+  
+    
+}
+.gpt3_feature_title h1{
+    font-size: 21px;
+    margin-bottom: 1rem;
+}
+
+
+
+.gpt3_feature_text{
+    color: var(--color-text);
+    font-size: 16px;
+    width: 90%;
+}
+
+
+@media screen and (max-width : 900px){
+    .gpt3_feature_text{
+        width: 100%;
+    }
+}
+
